@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+   
+}
+.container{
+    color: #020202;
+    margin: auto;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    line-height: 1.68em;
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+}
+.clr{
+    clear: both;
+}
+.home-Section{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+.home-content{
+    padding-top: 200px;
+}
+
+.home-Section .btn {
+    padding: 20px 30px;
+    margin : 5px;
+    color: white;
+    font-weight: bold;
+}
+.btn1{
+    background-color: #8e7754;
+    border : none;
+}
+.btn2{
+    background-color: rgba(160, 10, 10, 0);
+    border: #f8f8f8 solid 2px;
+}
+.about-img, .about-info{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.about-img img{
+    width: 100%;
+}
+.about-info ul{
+    list-style: none;
+}
+.about-info p,ul{
+    color: #969696;
+}
+.about-info h2,p{
+    padding: 20px;
+}
+.about-info ul img{
+    width: 8%;
+}
+
+.location{
+    background-color: #f8f8f8;
+}
+.location-info p{
+    color: #969696;
+}
+
+.location-info, .location-img {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.location-img img{
+    width: 100%;
+}
+.location h2{
+    padding: 20px;
+}
+
+.blog-info{
+    text-align:center;
+}
+.blog-items p, .blog-info p{
+    color: #969696;
+}
+.blog-items{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding:20px;
+}
+.blog-items img{
+    width: 100%;
+}
+
+.contact{
+    background-color: #f8f8f8;
+}
+.contact p{
+    color: #969696;
+}
+.contact-info, .contact-img {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.contact-img img{
+    width: 100%;
+}
+.contact-info ul{
+    list-style: none;
+}
+.contact-info h2,p{
+    padding: 20px;
+}
+.contact-info ul img{
+    width: 8%;
+}
+.footer-info{
+    color: #969696;
+    font-size: 16px;
+   background-color: #403d38;
+}
+.footer-items{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.footer-items h5 {
+    padding: 10px;
+    color: white;
+}
+.footer-items ul{
+    list-style: none;
+}
+.footer{
+    background-color: #353330;
+    text-align: center;
+    color: #969696;
+}
+.footer img{
+    padding: 20px;
+}
